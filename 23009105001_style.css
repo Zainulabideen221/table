@@ -1,0 +1,41 @@
+
+.table1 th{
+ background-color: rgb(59, 57, 57);
+ font-weight: bold;
+ text-align: center;
+ border: 1px solid;
+}
+.table1 td, .table2 td{
+    border: 1px solid;
+    padding: 5px;
+}
+.table1 tr, .table2 td{
+    border:1px solid black;
+    padding:5px;
+}
+
+ .right{
+    text-align: right;
+    
+}
+ .left{
+    text-align: left;
+   
+}
+.table2{
+    width:100%;
+    border-collapse: collapse;
+
+}
+.table1{
+    border-collapse: collapse;
+    width:100%;
+}
+.table2 tr:nth-child(even) td{
+    background-color: rgb(66, 103, 136);
+}
+.table2 .a{
+    width: 50%;
+}
+
+ 
